@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family:'main_dorid_font';
+    src: url(../font/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+
+
+*{
+    direction: rtl;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'main_dorid_font', "Helvetica Neue", Helvetica, sans-serif;
+     
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+  
+}
+
+.container #main_nav  {
+    height: 80px;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.container #main_nav #main_nav_list li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.container #main_nav #main_nav_list li:hover {
+    text-decoration:underline;
+    cursor: pointer;
+    font-size: large;
+    color: blue;
+}
+
+.container #main_nav #main_logo{
+    width: 110px;
+    height: 80px;
+    background-color: #32a2ef;
+   
+}
+
+.container #main_nav #main_logo img{
+    width: 100%;
+    height: 90%;
+  object-fit: cover;
+  
+}
+
+
+
+#sub_nav_bar{
+    display: flex;
+    width: 100%;
+    justify-content:  space-between;
+    align-items: center; 
+
+}
+
+.my-main-icon-custome{
+    font-size: 24px;
+    margin:0px 15px;
+}
+ 
+
+aside {
+    display: flex;
+ 
+}
+
+.flex_display {
+    display: flex;
+ 
+}
+
+.right_side_section {
+    width: 60%;
+    margin: 20px 0px;
+    background-color: white;
+    padding: 10px 10px;
+  
+}
+
+.left_side_section {
+    width: 40%;
+    margin: 20px 10px;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+
+#pic_p1 {
+    width:100%;
+    height: 515px;
+}
+
+#pic_p1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.p1_right_sec {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px;
+}
+
+.title_p {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: start;
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+   
+}
+
+
+.details_p {
+    text-align: start;
+}
+
+#p1_icons{
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    margin: 20px 15px;
+}
+
+.commerical_class {
+
+    height: 100px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_p2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+    text-decoration: underline;
+    cursor: pointer;
+   
+}
